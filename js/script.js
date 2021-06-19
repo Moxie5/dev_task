@@ -131,7 +131,8 @@ $(document).ready(function() {
             if($('#check1').prop("checked") == false) {
                 $('#check1').addClass('is-invalid').focus();
                 flag = 1;
-            }else if($('#check2').prop("checked") == false) {
+            }
+            if($('#check2').prop("checked") == false) {
                 $('#check2').addClass('is-invalid').focus();
                 flag = 1;
             }
